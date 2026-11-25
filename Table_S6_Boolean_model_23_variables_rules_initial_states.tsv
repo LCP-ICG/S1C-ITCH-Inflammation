@@ -1,0 +1,24 @@
+﻿var_id	description_ru	category	status	rule_variant_D	rule_variant_R	init_established_active	init_resting	biological_basis
+STIMULUS	Внешний стимул TNF	Фиксированное внешнее условие	Фиксирована	const (0 или 1)	const (0 или 1)	0	0	Условие расчёта (0 — без внешнего стимула; 1 — импульс TNF)
+ITCH_supply	Восстановление активности ITCH	Фиксированное внешнее условие	Фиксирована	const (0 или 1)	const (0 или 1)	0	0	Условие дефицита/сохранности собственного восстановления ITCH
+TAX1BP1_available	Наличие TAX1BP1	Фиксированное внешнее условие	Фиксирована	const (1)	const (1)	1	1	Адаптер комплекса A20 [Shembade et al., 2008]
+RNF11_available	Наличие RNF11	Фиксированное внешнее условие	Фиксирована	const (1; 0 в контроле)	const (1; 0 в контроле)	1	1	Субъединица комплекса A20 [Shembade et al., 2009]
+NFkB_import	Возможность ядерного импорта NF-κB	Фиксированное внешнее условие	Фиксирована	const (1; 0 в контроле)	const (1; 0 в контроле)	1	1	Условие ядерной транслокации NF-κB [Lin et al., 1995]
+ITCH_functional	Активность ITCH	Функция белка (мишень S1C)	Свободная	ITCH_supply (+ доп. переход 0→1 с инт. r)	ITCH_supply (+ доп. переход 0→1 с инт. r)	0	0	E3-убиквитинлигаза комплекса A20 [Shembade et al., 2008]
+A20_mRNA	Индуцированная экспрессия TNFAIP3	Экспрессия гена	Свободная	NFkB_active	NFkB_active	1	0	NF-κB-индуцируемая транскрипция TNFAIP3 [Krikos et al., 1992]
+A20_protein	Наличие белка A20	Функция белка	Свободная	A20_mRNA	A20_mRNA	1	0	Трансляция продукта TNFAIP3 [Krikos et al., 1992]
+A20_complex	Ингибирующая функция комплекса A20	Белковый комплекс	Свободная	A20_protein ∧ ITCH_functional ∧ TAX1BP1_available ∧ RNF11_available	A20_protein ∧ ITCH_functional ∧ TAX1BP1_available ∧ RNF11_available	0	0	Убиквитин-редактирующий комплекс A20 [Shembade et al., 2008, 2009]
+TNFR_drive	Стимуляция рецептора TNF	Передача сигнала	Свободная	STIMULUS ∨ TNF_secreted	STIMULUS ∨ TNF_secreted	1	0	Внешняя и аутокринная стимуляция TNFR1 [Pękalski et al., 2013]
+TNFR1_active	Активность TNFR1	Каскад TNFR1–IKK	Свободная	TNFR_drive	TNFR_drive	1	0	Активация рецептора TNF (ANDSystem)
+TRADD_recruited	Рекрутирование TRADD	Каскад TNFR1–IKK	Свободная	TNFR1_active	TNFR1_active	1	0	Адаптер сигнального комплекса TNFR1 (ANDSystem)
+RIPK1_signal	Передача сигнала с участием RIPK1	Каскад TNFR1–IKK	Свободная	TRADD_recruited ∧ ¬A20_complex	TRADD_recruited ∧ ¬A20_complex	1	0	Мишень ингибирования комплексом A20 [Shembade et al., 2008; Werner et al., 2008]
+TAK1_active	Активность TAK1 (MAP3K7)	Каскад TNFR1–IKK	Свободная	RIPK1_signal	RIPK1_signal	1	0	Киназа ядра сети (MAP3K7), активатор IKK (ANDSystem)
+IKK_active	Активность IKK (IKBKB)	Каскад TNFR1–IKK	Свободная	TAK1_active	TAK1_active	1	0	Киназа ингибитора NF-κB [Hoffmann et al., 2002]
+IkB_recovery	Базальное восстановление IκBα	Регуляция IκBα	Свободная	¬IKK_active	¬IKK_active	0	1	Базальное накопление IκBα, подавляемое IKK [Hoffmann et al., 2002]
+IkB_available	Наличие IκBα	Регуляция IκBα	Свободная	(IkB_recovery ∨ NFKBIA_mRNA) ∧ ¬IKK_active	IkB_recovery ∨ NFKBIA_mRNA	0	1	Доступный пул IκBα: вариант D (преобладание деградации) / R (ресинтез)
+NFkB_released	Высвобождение NF-κB из комплекса с IκBα	Транспорт и активность NF-κB	Свободная	IKK_active ∧ ¬IkB_available	IKK_active ∧ ¬IkB_available	1	0	Диссоциация комплекса NF-κB/IκBα [Hoffmann et al., 2002]
+NFkB_nuclear	Ядерная локализация свободного NF-κB	Транспорт и активность NF-κB	Свободная	NFkB_released ∧ NFkB_import ∧ ¬IkB_available	NFkB_released ∧ NFkB_import ∧ ¬IkB_available	1	0	Ядерный импорт и IκBα-зависимый экспорт [Arenzana-Seisdedos et al., 1997; Lin et al., 1995]
+NFkB_active	Транскрипционная активность ядерного NF-κB	Транспорт и активность NF-κB	Свободная	NFkB_nuclear ∧ ¬IkB_available	NFkB_nuclear ∧ ¬IkB_available	1	0	Активность димера p50/RelA [Hoffmann et al., 2002; Werner et al., 2008]
+NFKBIA_mRNA	Индуцированная экспрессия NFKBIA	Экспрессия гена	Свободная	NFkB_active	NFkB_active	1	0	Отрицательная обратная связь IκBα [Hoffmann et al., 2002]
+TNF_mRNA	Индуцированная экспрессия TNF	Экспрессия гена	Свободная	NFkB_active	NFkB_active	1	0	Положительная обратная связь TNF [Pękalski et al., 2013]
+TNF_secreted	Секретируемый TNF	Аутокринный сигнал	Свободная	TNF_mRNA	TNF_mRNA	1	0	Секреция эндогенного TNF [Pękalski et al., 2013]

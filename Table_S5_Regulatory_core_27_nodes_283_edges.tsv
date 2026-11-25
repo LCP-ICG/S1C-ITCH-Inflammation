@@ -1,0 +1,284 @@
+﻿edge_index	source_index	source_label	target_index	target_label	interaction_type	sign	ANDSystem_relation_ids
+7	499	IL6	50	VCAM1	expression upregulation	1	7124
+40	93	TNF / TNFA	248	NOX4	expression upregulation	1	7165
+91	548	NFKB1	499	IL6	expression upregulation	1	7237
+127	543	MTOR	267	TFRC / TFR1	expression upregulation	1	7278
+137	93	TNF / TNFA	405	CY24B / CYBB	expression upregulation	1	7290
+163	195	THBS1 / TSP1	248	NOX4	expression upregulation	1	7322;16105
+189	548	NFKB1	595	SMAD3	expression upregulation	1	7356
+265	421	EPO	465	HMOX1	expression upregulation	1	7461
+345	248	NOX4	50	VCAM1	expression upregulation	1	7567
+356	436	FOS	136	ACE2	expression upregulation	1	7579
+361	248	NOX4	405	CY24B / CYBB	expression upregulation	1	7584
+395	26	SNCA / SYUA	267	TFRC / TFR1	expression upregulation	1	7630
+423	93	TNF / TNFA	195	THBS1 / TSP1	expression upregulation	1	7665
+548	587	RAC1	248	NOX4	expression upregulation	1	7827
+555	548	NFKB1	576	PPARA	expression upregulation	1	7834
+578	26	SNCA / SYUA	477	IKBA / NFKBIA	expression upregulation	1	7866
+600	550	NGAL / LCN2	318	A4 / APP	expression upregulation	1	7894;15445
+618	576	PPARA	349	BMP2	expression upregulation	1	7912
+621	93	TNF / TNFA	576	PPARA	expression downregulation	-1	7915;15589
+638	93	TNF / TNFA	499	IL6	expression upregulation	1	7936
+640	28	KLF4	357	CADH5 / CDH5	expression upregulation	1	7940
+657	499	IL6	318	A4 / APP	expression upregulation	1	7961
+673	436	FOS	318	A4 / APP	expression upregulation	1	7982
+688	421	EPO	576	PPARA	expression upregulation	1	8006
+765	136	ACE2	26	SNCA / SYUA	expression upregulation	1	8099
+814	93	TNF / TNFA	349	BMP2	expression upregulation	1	8162
+851	587	RAC1	318	A4 / APP	expression upregulation	1	8205
+956	548	NFKB1	550	NGAL / LCN2	expression upregulation	1	8330
+963	93	TNF / TNFA	477	IKBA / NFKBIA	expression upregulation	1	8338
+975	595	SMAD3	576	PPARA	expression upregulation	1	8350
+1015	93	TNF / TNFA	318	A4 / APP	expression upregulation	1	8402
+1020	477	IKBA / NFKBIA	548	NFKB1	expression upregulation	1	8408
+1026	93	TNF / TNFA	548	NFKB1	expression upregulation	1	8420
+1030	595	SMAD3	349	BMP2	expression upregulation	1	8424
+1053	548	NFKB1	50	VCAM1	expression upregulation	1	8449
+1092	311	NOX1	465	HMOX1	expression upregulation	1	8500
+1106	93	TNF / TNFA	595	SMAD3	expression upregulation	1	8518
+1142	136	ACE2	405	CY24B / CYBB	expression upregulation	1	8562
+1154	93	TNF / TNFA	267	TFRC / TFR1	expression upregulation	1	8580
+1175	548	NFKB1	477	IKBA / NFKBIA	expression upregulation	1	8611
+1225	421	EPO	349	BMP2	expression upregulation	1	8671
+1251	267	TFRC / TFR1	248	NOX4	expression upregulation	1	8700
+1268	93	TNF / TNFA	136	ACE2	expression upregulation	1	8725
+1311	405	CY24B / CYBB	50	VCAM1	expression upregulation	1	8779
+1316	93	TNF / TNFA	465	HMOX1	expression upregulation	1	8785
+1325	195	THBS1 / TSP1	50	VCAM1	expression upregulation	1	8798
+1395	311	NOX1	248	NOX4	expression upregulation	1	8893;15767
+1415	26	SNCA / SYUA	465	HMOX1	expression upregulation	1	8922
+1442	136	ACE2	50	VCAM1	expression upregulation	1	8956
+1508	349	BMP2	576	PPARA	expression upregulation	1	9045
+1519	93	TNF / TNFA	550	NGAL / LCN2	expression upregulation	1	9058
+1544	548	NFKB1	318	A4 / APP	expression upregulation	1	9088
+1562	576	PPARA	465	HMOX1	expression upregulation	1	9108
+1570	436	FOS	465	HMOX1	expression upregulation	1	9119
+1583	499	IL6	248	NOX4	expression upregulation	1	9138
+1596	93	TNF / TNFA	116	SPHK1	expression upregulation	1	9152
+1606	548	NFKB1	136	ACE2	expression upregulation	1	9162
+1617	499	IL6	349	BMP2	expression upregulation	1	9177
+1624	93	TNF / TNFA	50	VCAM1	expression upregulation	1	9186
+1665	548	NFKB1	248	NOX4	expression upregulation	1	9240
+1676	499	IL6	550	NGAL / LCN2	expression upregulation	1	9254
+1735	349	BMP2	116	SPHK1	expression upregulation	1	9325
+1745	405	CY24B / CYBB	248	NOX4	expression upregulation	1	9337
+1806	576	PPARA	477	IKBA / NFKBIA	expression upregulation	1	9419
+1808	421	EPO	267	TFRC / TFR1	expression upregulation	1	9421
+1823	576	PPARA	543	MTOR	expression upregulation	1	9440
+1826	548	NFKB1	349	BMP2	expression upregulation	1	9443
+1893	136	ACE2	318	A4 / APP	expression downregulation	-1	9527;16859
+1907	499	IL6	291	MAP3K7 / M3K7	expression upregulation	1	9547
+1919	548	NFKB1	405	CY24B / CYBB	expression upregulation	1	9559
+1924	595	SMAD3	116	SPHK1	expression upregulation	1	9567
+1926	421	EPO	248	NOX4	expression upregulation	1	9569
+1940	436	FOS	50	VCAM1	expression upregulation	1	9584
+1966	28	KLF4	576	PPARA	expression upregulation	1	9617
+2040	548	NFKB1	93	TNF / TNFA	expression upregulation	1	9713
+2054	248	NOX4	267	TFRC / TFR1	expression upregulation	1	9738
+2099	595	SMAD3	248	NOX4	expression upregulation	1	9801
+2108	499	IL6	357	CADH5 / CDH5	expression upregulation	1	9815
+2161	499	IL6	116	SPHK1	expression upregulation	1	9880
+2278	548	NFKB1	267	TFRC / TFR1	expression upregulation	1	10028
+2282	116	SPHK1	267	TFRC / TFR1	expression upregulation	1	10033
+2366	595	SMAD3	28	KLF4	expression upregulation	1	10134
+2464	50	VCAM1	385	CEBPA	expression upregulation	1	10259
+2506	499	IL6	465	HMOX1	expression upregulation	1	10309
+2525	548	NFKB1	465	HMOX1	expression upregulation	1	10335
+2562	93	TNF / TNFA	357	CADH5 / CDH5	expression downregulation	-1	10378;10934
+2581	93	TNF / TNFA	311	NOX1	expression upregulation	1	10779
+2660	548	NFKB1	50	VCAM1	expression downregulation	-1	10920
+2665	291	MAP3K7 / M3K7	248	NOX4	expression downregulation	-1	10931
+2712	291	MAP3K7 / M3K7	248	NOX4	expression upregulation	1	11031
+2733	28	KLF4	195	THBS1 / TSP1	expression downregulation	-1	11073
+2740	595	SMAD3	349	BMP2	expression downregulation	-1	11084
+2772	311	NOX1	550	NGAL / LCN2	expression upregulation	1	11141
+2776	50	VCAM1	248	NOX4	expression upregulation	1	11148
+2835	93	TNF / TNFA	136	ACE2	expression downregulation	-1	11261
+2841	548	NFKB1	385	CEBPA	expression upregulation	1	11274
+2851	595	SMAD3	405	CY24B / CYBB	expression upregulation	1	11287
+2863	248	NOX4	318	A4 / APP	expression upregulation	1	11316
+2868	436	FOS	548	NFKB1	expression upregulation	1	11331
+2870	349	BMP2	357	CADH5 / CDH5	expression downregulation	-1	11335
+2925	465	HMOX1	136	ACE2	expression downregulation	-1	11458
+2933	465	HMOX1	385	CEBPA	expression downregulation	-1	11478
+3033	267	TFRC / TFR1	248	NOX4	expression downregulation	-1	11683
+3038	26	SNCA / SYUA	318	A4 / APP	expression downregulation	-1	11690
+3062	318	A4 / APP	576	PPARA	expression downregulation	-1	11733
+3093	248	NOX4	465	HMOX1	expression downregulation	-1	11799
+3110	93	TNF / TNFA	248	NOX4	expression downregulation	-1	11830
+3111	576	PPARA	50	VCAM1	expression downregulation	-1	11832
+3116	465	HMOX1	405	CY24B / CYBB	expression downregulation	-1	11840
+3137	543	MTOR	248	NOX4	expression upregulation	1	11873
+3149	136	ACE2	357	CADH5 / CDH5	expression upregulation	1	11894
+3153	550	NGAL / LCN2	195	THBS1 / TSP1	expression upregulation	1	11902
+3161	499	IL6	405	CY24B / CYBB	expression upregulation	1	11912
+3215	548	NFKB1	248	NOX4	expression downregulation	-1	12022
+3223	93	TNF / TNFA	50	VCAM1	expression downregulation	-1	12041
+3225	93	TNF / TNFA	291	MAP3K7 / M3K7	expression upregulation	1	12044
+3242	93	TNF / TNFA	477	IKBA / NFKBIA	expression downregulation	-1	12080
+3253	136	ACE2	405	CY24B / CYBB	expression downregulation	-1	12108
+3305	550	NGAL / LCN2	267	TFRC / TFR1	expression upregulation	1	12209
+3315	595	SMAD3	385	CEBPA	expression downregulation	-1	12233
+3335	587	RAC1	195	THBS1 / TSP1	expression downregulation	-1	12277
+3343	436	FOS	267	TFRC / TFR1	expression upregulation	1	12290
+3351	421	EPO	357	CADH5 / CDH5	expression downregulation	-1	12304
+3360	587	RAC1	311	NOX1	expression upregulation	1	12324
+3368	136	ACE2	576	PPARA	expression upregulation	1	12338
+3439	26	SNCA / SYUA	116	SPHK1	expression downregulation	-1	12513
+3517	311	NOX1	576	PPARA	expression downregulation	-1	12650
+3522	318	A4 / APP	50	VCAM1	expression upregulation	1	12660
+3526	436	FOS	248	NOX4	expression upregulation	1	12664
+3579	136	ACE2	499	IL6	expression downregulation	-1	12779
+3603	576	PPARA	477	IKBA / NFKBIA	expression downregulation	-1	12826
+3628	93	TNF / TNFA	385	CEBPA	expression downregulation	-1	12873
+3641	576	PPARA	248	NOX4	expression upregulation	1	12900
+3648	248	NOX4	357	CADH5 / CDH5	expression downregulation	-1	12910
+3665	550	NGAL / LCN2	465	HMOX1	expression upregulation	1	12935
+3687	465	HMOX1	50	VCAM1	expression downregulation	-1	12980
+3737	136	ACE2	576	PPARA	expression downregulation	-1	13071
+3745	136	ACE2	26	SNCA / SYUA	expression downregulation	-1	13088
+3826	405	CY24B / CYBB	248	NOX4	expression downregulation	-1	13247
+3835	576	PPARA	548	NFKB1	expression downregulation	-1	13261
+3853	349	BMP2	248	NOX4	expression upregulation	1	13297
+3953	248	NOX4	550	NGAL / LCN2	expression upregulation	1	13469
+3975	436	FOS	385	CEBPA	expression upregulation	1	13512
+4005	587	RAC1	50	VCAM1	expression upregulation	1	13560
+4148	421	EPO	93	TNF / TNFA	expression downregulation	-1	13837
+4149	550	NGAL / LCN2	357	CADH5 / CDH5	expression downregulation	-1	13839
+4188	595	SMAD3	195	THBS1 / TSP1	expression upregulation	1	13917
+4256	499	IL6	357	CADH5 / CDH5	expression downregulation	-1	14044
+4277	116	SPHK1	50	VCAM1	expression upregulation	1	14090
+4341	543	MTOR	50	VCAM1	expression upregulation	1	14217
+4374	465	HMOX1	349	BMP2	expression downregulation	-1	14282
+4391	93	TNF / TNFA	465	HMOX1	expression downregulation	-1	14308
+4467	548	NFKB1	136	ACE2	expression downregulation	-1	14451
+4582	421	EPO	349	BMP2	expression downregulation	-1	14682
+4666	28	KLF4	136	ACE2	expression downregulation	-1	14842
+4731	436	FOS	349	BMP2	expression upregulation	1	14954
+4740	436	FOS	28	KLF4	expression upregulation	1	14967
+4774	116	SPHK1	28	KLF4	expression downregulation	-1	15034
+4839	421	EPO	50	VCAM1	expression upregulation	1	15167
+4894	28	KLF4	50	VCAM1	expression downregulation	-1	15266
+4923	499	IL6	576	PPARA	expression downregulation	-1	15315
+4954	421	EPO	550	NGAL / LCN2	expression downregulation	-1	15381
+4963	595	SMAD3	50	VCAM1	expression downregulation	-1	15394
+4980	349	BMP2	405	CY24B / CYBB	expression upregulation	1	15422
+4996	499	IL6	50	VCAM1	expression downregulation	-1	15452
+5011	499	IL6	267	TFRC / TFR1	expression downregulation	-1	15481
+5018	405	CY24B / CYBB	50	VCAM1	expression downregulation	-1	15494
+5085	548	NFKB1	357	CADH5 / CDH5	expression upregulation	1	15618
+5095	543	MTOR	385	CEBPA	expression downregulation	-1	15630
+5120	26	SNCA / SYUA	405	CY24B / CYBB	expression upregulation	1	15674
+5132	195	THBS1 / TSP1	357	CADH5 / CDH5	expression downregulation	-1	15693
+5193	136	ACE2	248	NOX4	expression downregulation	-1	15803
+5208	587	RAC1	357	CADH5 / CDH5	expression upregulation	1	15839
+5250	436	FOS	311	NOX1	expression upregulation	1	15916
+5283	248	NOX4	50	VCAM1	expression downregulation	-1	15978
+5298	291	MAP3K7 / M3K7	50	VCAM1	expression upregulation	1	16001
+5304	548	NFKB1	311	NOX1	expression upregulation	1	16010
+5353	595	SMAD3	248	NOX4	expression downregulation	-1	16115
+5358	28	KLF4	465	HMOX1	expression downregulation	-1	16124
+5504	267	TFRC / TFR1	465	HMOX1	expression upregulation	1	16389
+5523	499	IL6	349	BMP2	expression downregulation	-1	16421
+5575	195	THBS1 / TSP1	50	VCAM1	expression downregulation	-1	16525
+5599	587	RAC1	595	SMAD3	expression upregulation	1	16579
+5602	93	TNF / TNFA	116	SPHK1	expression downregulation	-1	16584
+5767	587	RAC1	357	CADH5 / CDH5	expression downregulation	-1	16900
+5801	248	NOX4	405	CY24B / CYBB	expression downregulation	-1	16951
+5828	291	MAP3K7 / M3K7	548	NFKB1	expression upregulation	1	17006
+5848	499	IL6	543	MTOR	activity upregulation	1	20865
+5849	93	TNF / TNFA	349	BMP2	activity upregulation	1	20866
+5872	421	EPO	543	MTOR	activity upregulation	1	20912
+5873	587	RAC1	548	NFKB1	activity downregulation	-1	20913
+5878	93	TNF / TNFA	421	EPO	activity downregulation	-1	20926
+5898	405	CY24B / CYBB	587	RAC1	activity upregulation	1	20978
+5909	436	FOS	548	NFKB1	activity downregulation	-1	21003;23096
+5915	548	NFKB1	50	VCAM1	activity upregulation	1	21013
+5917	50	VCAM1	587	RAC1	activity downregulation	-1	21017
+5924	248	NOX4	548	NFKB1	activity upregulation	1	21025
+5949	421	EPO	576	PPARA	activity upregulation	1	21068
+5958	576	PPARA	548	NFKB1	activity upregulation	1	21085
+5964	548	NFKB1	436	FOS	activity downregulation	-1	21095
+5990	595	SMAD3	248	NOX4	activity upregulation	1	21151
+6002	543	MTOR	576	PPARA	activity downregulation	-1	21177
+6031	28	KLF4	548	NFKB1	activity downregulation	-1	21241
+6057	595	SMAD3	248	NOX4	activity downregulation	-1	21291
+6099	93	TNF / TNFA	587	RAC1	activity upregulation	1	21366
+6104	405	CY24B / CYBB	311	NOX1	activity downregulation	-1	21373
+6112	587	RAC1	436	FOS	activity downregulation	-1	21389
+6140	28	KLF4	576	PPARA	activity downregulation	-1	21447
+6151	548	NFKB1	93	TNF / TNFA	activity downregulation	-1	21469
+6202	93	TNF / TNFA	50	VCAM1	activity upregulation	1	21581
+6212	576	PPARA	548	NFKB1	activity downregulation	-1	21598
+6233	543	MTOR	548	NFKB1	activity downregulation	-1	21648
+6244	26	SNCA / SYUA	548	NFKB1	activity upregulation	1	21685
+6252	548	NFKB1	543	MTOR	activity downregulation	-1	21703
+6296	436	FOS	499	IL6	activity upregulation	1	21821
+6297	93	TNF / TNFA	548	NFKB1	activity upregulation	1	21822
+6303	116	SPHK1	548	NFKB1	activity downregulation	-1	21833
+6312	576	PPARA	93	TNF / TNFA	activity downregulation	-1	21856
+6314	28	KLF4	543	MTOR	activity downregulation	-1	21870;22654
+6317	26	SNCA / SYUA	587	RAC1	activity downregulation	-1	21876
+6321	499	IL6	465	HMOX1	activity upregulation	1	21892
+6330	499	IL6	436	FOS	activity upregulation	1	21909
+6334	477	IKBA / NFKBIA	548	NFKB1	activity upregulation	1	21917
+6390	587	RAC1	595	SMAD3	activity downregulation	-1	22049
+6419	291	MAP3K7 / M3K7	548	NFKB1	activity downregulation	-1	22114
+6432	318	A4 / APP	543	MTOR	activity upregulation	1	22156
+6435	587	RAC1	405	CY24B / CYBB	activity upregulation	1	22166
+6452	436	FOS	318	A4 / APP	activity upregulation	1	22201
+6476	93	TNF / TNFA	543	MTOR	activity upregulation	1	22275
+6478	28	KLF4	576	PPARA	activity upregulation	1	22279
+6504	318	A4 / APP	465	HMOX1	activity downregulation	-1	22339
+6505	385	CEBPA	550	NGAL / LCN2	activity downregulation	-1	22341
+6510	349	BMP2	587	RAC1	activity upregulation	1	22348
+6525	116	SPHK1	548	NFKB1	activity upregulation	1	22390
+6568	543	MTOR	248	NOX4	activity upregulation	1	22483
+6571	93	TNF / TNFA	436	FOS	activity upregulation	1	22491;22939
+6573	93	TNF / TNFA	548	NFKB1	activity downregulation	-1	22496;23096
+6584	587	RAC1	248	NOX4	activity upregulation	1	22524
+6591	248	NOX4	405	CY24B / CYBB	activity upregulation	1	22539
+6619	499	IL6	267	TFRC / TFR1	activity upregulation	1	22603
+6626	291	MAP3K7 / M3K7	436	FOS	activity upregulation	1	22615
+6637	357	CADH5 / CDH5	587	RAC1	activity upregulation	1	22640
+6641	465	HMOX1	548	NFKB1	activity downregulation	-1	22651
+6643	548	NFKB1	248	NOX4	activity upregulation	1	22655;23100
+6645	499	IL6	550	NGAL / LCN2	activity upregulation	1	22662
+6669	248	NOX4	311	NOX1	activity upregulation	1	22717
+6676	548	NFKB1	349	BMP2	activity downregulation	-1	22740
+6680	499	IL6	548	NFKB1	activity downregulation	-1	22752
+6699	311	NOX1	576	PPARA	activity downregulation	-1	22789
+6739	548	NFKB1	595	SMAD3	activity downregulation	-1	22902
+6770	291	MAP3K7 / M3K7	548	NFKB1	activity upregulation	1	22982
+6780	405	CY24B / CYBB	548	NFKB1	activity downregulation	-1	23012
+6792	385	CEBPA	548	NFKB1	activity downregulation	-1	23037
+6823	465	HMOX1	248	NOX4	activity downregulation	-1	23115
+6827	548	NFKB1	550	NGAL / LCN2	activity downregulation	-1	23124
+6832	548	NFKB1	576	PPARA	activity downregulation	-1	23153
+6838	499	IL6	93	TNF / TNFA	activity downregulation	-1	23169
+6839	93	TNF / TNFA	587	RAC1	activity downregulation	-1	23172
+6855	499	IL6	421	EPO	activity downregulation	-1	23199
+6862	465	HMOX1	436	FOS	activity upregulation	1	23222
+6870	587	RAC1	543	MTOR	activity downregulation	-1	23248
+6873	550	NGAL / LCN2	543	MTOR	activity upregulation	1	23252
+6884	93	TNF / TNFA	116	SPHK1	activity upregulation	1	23272
+6904	587	RAC1	548	NFKB1	activity upregulation	1	23323
+6905	93	TNF / TNFA	576	PPARA	activity downregulation	-1	23327
+6932	477	IKBA / NFKBIA	548	NFKB1	activity downregulation	-1	23386
+6968	93	TNF / TNFA	499	IL6	activity downregulation	-1	23463
+6977	587	RAC1	543	MTOR	activity upregulation	1	23484
+7032	548	NFKB1	499	IL6	degradation downregulation	1	23612
+7061	477	IKBA / NFKBIA	548	NFKB1	degradation downregulation	1	23683
+7069	195	THBS1 / TSP1	291	MAP3K7 / M3K7	degradation downregulation	1	23702
+7081	587	RAC1	357	CADH5 / CDH5	degradation downregulation	1	23729
+7084	116	SPHK1	357	CADH5 / CDH5	degradation downregulation	1	23734
+7095	291	MAP3K7 / M3K7	477	IKBA / NFKBIA	degradation upregulation	-1	23770
+7097	291	MAP3K7 / M3K7	477	IKBA / NFKBIA	degradation downregulation	1	23773
+7110	587	RAC1	477	IKBA / NFKBIA	degradation upregulation	-1	23800
+7199	548	NFKB1	477	IKBA / NFKBIA	degradation downregulation	1	24040
+7216	93	TNF / TNFA	477	IKBA / NFKBIA	degradation upregulation	-1	24093;24411
+7226	93	TNF / TNFA	477	IKBA / NFKBIA	degradation downregulation	1	24121
+7311	465	HMOX1	477	IKBA / NFKBIA	degradation downregulation	1	24323
+7330	543	MTOR	26	SNCA / SYUA	degradation upregulation	-1	24385
+7339	93	TNF / TNFA	357	CADH5 / CDH5	degradation downregulation	1	24407
+7356	465	HMOX1	26	SNCA / SYUA	degradation upregulation	-1	24456
