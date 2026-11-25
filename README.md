@@ -3,7 +3,7 @@
 Supplementary data, structural coordinates, reconstructed gene network tables, 23-variable Boolean model specification, and sensitivity analysis code accompanying the study:
 
 > **V.A. Ivanisenko, A.A. Nesterov, A.S. Venzel, P.S. Demenkov, T.V. Ivanisenko, V.N. Danilenko, N.A. Kolchanov.**  
-> *Computational modeling of a hypothetical anti-inflammatory mechanism of Limosilactobacillus fermentum U-21 S1C protease via predicted protein–protein interaction with the ubiquitin ligase ITCH.*  
+> *Computational modeling of a potential mechanism underlying the anti-inflammatory action of Limosilactobacillus fermentum U-21 S1C protease through protein–protein interaction with the ubiquitin ligase ITCH.*  
 > Bulletin of Biotechnology and Physicochemical Biology named after Yu.A. Ovchinnikov (*Вестник биотехнологии и физико-химической биологии им. Ю.А. Овчинникова*), 2026; 22(Special Issue).
 
 ---
